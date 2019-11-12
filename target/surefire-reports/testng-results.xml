@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="dataCatalogTest" duration-ms="158074" started-at="2019-02-28T14:55:26Z" finished-at="2019-02-28T14:58:04Z">
+    <groups>
+    </groups>
+    <test name="ResultTest-Chrome" duration-ms="87026" started-at="2019-02-28T14:55:26Z" finished-at="2019-02-28T14:56:53Z">
+      <class name="com.amazon.datacatalog.resulttest.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.amazon.datacatalog.resulttest.SearchTest@77b52d12]" name="setUp" is-config="true" duration-ms="40551" started-at="2019-02-28T14:55:26Z" finished-at="2019-02-28T14:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@74eb909f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="resultTest(java.lang.String, java.lang.String)[pri:1, instance:com.amazon.datacatalog.resulttest.SearchTest@77b52d12]" name="resultTest" duration-ms="45054" started-at="2019-02-28T14:56:07Z" finished-at="2019-02-28T14:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data Catalog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.datacatalog.resulttest.SearchTest@77b52d12]" name="tearDown" is-config="true" duration-ms="1340" started-at="2019-02-28T14:56:52Z" finished-at="2019-02-28T14:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.datacatalog.resulttest.SearchTest -->
+    </test> <!-- ResultTest-Chrome -->
+    <test name="ResultTest-Firefox" duration-ms="70083" started-at="2019-02-28T14:56:54Z" finished-at="2019-02-28T14:58:04Z">
+      <class name="com.amazon.datacatalog.resulttest.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.amazon.datacatalog.resulttest.SearchTest@61dc03ce]" name="setUp" is-config="true" duration-ms="37175" started-at="2019-02-28T14:56:54Z" finished-at="2019-02-28T14:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@28ec166e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="resultTest(java.lang.String, java.lang.String)[pri:1, instance:com.amazon.datacatalog.resulttest.SearchTest@61dc03ce]" name="resultTest" duration-ms="26134" started-at="2019-02-28T14:57:31Z" finished-at="2019-02-28T14:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data Catalog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.datacatalog.resulttest.SearchTest@61dc03ce]" name="tearDown" is-config="true" duration-ms="6774" started-at="2019-02-28T14:57:58Z" finished-at="2019-02-28T14:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.datacatalog.resulttest.SearchTest -->
+    </test> <!-- ResultTest-Firefox -->
+  </suite> <!-- dataCatalogTest -->
+</testng-results>

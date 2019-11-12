@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="dataCatalogTest" >
+	<parameter name="environment" value="local"></parameter>
+	<parameter name="category" value="Books"></parameter>
+	<parameter name="itemName" value="Data Catalog"></parameter>
+
+	<test name="ResultTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.amazon.datacatalog.resulttest.SearchTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="ResultTest-Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.amazon.datacatalog.resulttest.SearchTest">
+			</class>
+		</classes>
+	</test>
+
+</suite>

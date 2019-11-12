@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [dataCatalogTest]">
+  <parameter name="environment" value="local"/>
+  <parameter name="itemName" value="Data Catalog"/>
+  <parameter name="category" value="Books"/>
+  <test thread-count="5" name="ResultTest-Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.amazon.datacatalog.resulttest.SearchTest">
+        <methods>
+          <include name="resultTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amazon.datacatalog.resulttest.SearchTest -->
+    </classes>
+  </test> <!-- ResultTest-Firefox(failed) -->
+</suite> <!-- Failed suite [dataCatalogTest] -->
